@@ -1,7 +1,16 @@
 body{
-    background-color: rgb(39, 178, 233);
-        
+    background-image: url("https://i.stack.imgur.com/vhoa0.jpg");
     color:white;
+    padding: 50px;
+}
+ 
+.header_title{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
 }
 .header_title{
     display: flex;
@@ -51,5 +60,10 @@ margin-left: 12px;
     justify-content: right;
     margin-left: 30px;
     width: 400px;
-    height: 300px;
+    height: 600px;
+}
+.header_container{
+    display:flex;
+    align-items:center;
+    justify-content:end;
 }
